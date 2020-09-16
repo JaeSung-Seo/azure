@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# createMultipleVMs.sh
+# create multiple VMs with random VM names, choosing OS types.
+
 echo -n "Choose OS type:(1: Windows, 2: Ubuntu): "
 read type
 
