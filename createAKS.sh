@@ -1,0 +1,14 @@
+az aks create -n aks-getting-started \
+--resource-group $RESOURCEGROUP \
+--location eastus \
+--kubernetes-version 1.18.6 \
+--load-balancer-sku standard \
+--nodepool-name default \
+--node-count 1 \
+--node-vm-size Standard_B2s \
+--node-osdisk-size 250 \
+--ssh-key-value ./id_rsa.pub \
+--network-plugin kubenet \
+--service-principal $SERVICE_PRINCIPLE \
+--client-secret $SERVICE_PRINCIPLE_SECRET \
+--verbose

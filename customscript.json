@@ -1,0 +1,4 @@
+{
+    "fileUris": ["https://raw.githubusercontent.com/JaeSung-Seo/azure/master/install_ubuntu_nginx.sh"],
+    "commandToExecute": "./install_ubuntu_nginx.sh"
+}

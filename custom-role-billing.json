@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "roleName": "Billing Reader Plus",
+        "description": "Read billing data and download invoices",
+        "assignableScopes": [
+            "/subscriptions/f88cc984-7d39-4ae9-a79d-16c2e99a7851"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Billing/*/read",
+                    "Microsoft.Commerce/*/read",
+                    "Microsoft.Consumption/*/read",
+                    "Microsoft.Management/managementGroups/read",
+                    "Microsoft.CostManagement/*/read",
+                    "Microsoft.Support/*"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

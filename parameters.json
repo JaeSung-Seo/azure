@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "jslinux0290"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/5f316469-8bed-40e1-8792-d3e6f84342a1/resourceGroups/TestingARMRG/providers/Microsoft.Network/networkSecurityGroups/JSlinux01-nsg"
+        },
+        "subnetName": {
+            "value": "HubResource"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/5f316469-8bed-40e1-8792-d3e6f84342a1/resourceGroups/StoragePortal/providers/Microsoft.Network/virtualNetworks/HubVNet"
+        },
+        "publicIpAddressName": {
+            "value": "JSLinux03-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "JSLinux03"
+        },
+        "virtualMachineComputerName": {
+            "value": "JSLinux03"
+        },
+        "virtualMachineRG": {
+            "value": "TestingARMRG"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "adminUsername": {
+            "value": "AzureUser"
+        },
+        "adminPassword": {
+            "value": 'QWEazu!@#QWE'
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "testingarmrgdiag"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/5f316469-8bed-40e1-8792-d3e6f84342a1/resourceGroups/TestingARMRG/providers/Microsoft.Storage/storageAccounts/testingarmrgdiag"
+        }
+    }
+}
